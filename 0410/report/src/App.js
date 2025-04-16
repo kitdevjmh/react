@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import HabitItem from "./components/HabitItem";
+import Header from "./components/Header";
+import FilterButtons from "./components/FilterButtons";
+import CompletionRate from "./components/CompletionRate";
+import CompletionChart from "./components/CompletionChart";
 import "./App.css";
 
 const habitsList = [
@@ -6,15 +11,6 @@ const habitsList = [
   { id: 2, title: "운동 30분" },
   { id: 3, title: "8시간 수면" }
 ];
-
-function HabitItem({ title, isDone, onToggle }) {
-  return (
-    <div className={`habit-item ${isDone ? "done" : ""}`} onClick={onToggle}>
-      <input type="checkbox" checked={isDone} readOnly />
-      <span>{title}</span>
-    </div>
-  );
-}
 
 function App() {
   const [completed, setCompleted] = useState([]);
@@ -36,13 +32,8 @@ function App() {
 
   return (
     <div className="app">
-      <h1>🧘‍♀️ Daily Health Tracker</h1>
-      <p>오늘 날짜: {new Date().toLocaleDateString()}</p>
-      <div className="filter-buttons">
-        <button onClick={() => setFilter("all")}>전체</button>
-        <button onClick={() => setFilter("completed")}>완료</button>
-        <button onClick={() => setFilter("incomplete")}>미완료</button>
-      </div>
+      <Header />
+      <FilterButtons setFilter={setFilter} />
 
       <div className="habit-list">
         {filteredHabits.map((habit) => (
@@ -55,7 +46,8 @@ function App() {
         ))}
       </div>
 
-      <p>✅ 완료율: {completionRate}%</p>
+      <CompletionRate rate={completionRate} />
+      <CompletionChart rate={completionRate} />
     </div>
   );
 }
