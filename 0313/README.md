@@ -32,13 +32,13 @@
 ---
 # 🌐 Web Programming Overview
 
-웹 프로그래밍 기초부터 SPA/MPA 비교, 렌더링 방식, 주요 웹 서버와 React까지 전반적인 웹 기술 스택을 정리한 문서입니다.
+웹 프로그래밍 기초부터 SPA/MPA 비교, 렌더링 방식, 주요 웹 서버와 React까지 전반적인 웹 기술 스택을 정리한 문서
 
 ---
 
 ## 📄 Rendering
 
-웹 렌더링은 **HTML**과 **CSS**를 파싱하여 브라우저에 시각적으로 보여주는 과정입니다.
+웹 렌더링은 **HTML**과 **CSS**를 파싱하여 브라우저에 시각적으로 보여주는 과정
 
 - **HTML → DOM 트리 생성**
 - **CSS → CSSOM 트리 생성**
@@ -83,11 +83,11 @@
 
 ## 🖥 Web Server
 
-### 🌐 IIS (Internet Information Services)
+## 🌐React
 
-- Windows 기본 내장 웹 서버
-- **기본 경로**: `C:\Inetpub\wwwroot`
-- 테스트:
+- 컴포넌트 기반 프론트엔드 라이브러리
+- JSX, 생명주기, 이벤트 처리, 상태 관리
+- SPA 개발에 적합
 
 
 
