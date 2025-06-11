@@ -30,31 +30,65 @@
 - 프로토타입 기반 객체지향 프로그래밍
 
 ---
+# 🌐 Web Programming Overview
 
-##SPA vs MPA
+웹 프로그래밍 기초부터 SPA/MPA 비교, 렌더링 방식, 주요 웹 서버와 React까지 전반적인 웹 기술 스택을 정리한 문서입니다.
 
-**SPA (Single Page Application)
-한 개의 HTML 페이지에서 모든 콘텐츠 로드
+---
 
-클라이언트 사이드 렌더링 (CSR)
+## 📄 Rendering
 
-빠른 전환, 깜빡임 없음
+웹 렌더링은 **HTML**과 **CSS**를 파싱하여 브라우저에 시각적으로 보여주는 과정입니다.
 
-React, Vue 등 사용
+- **HTML → DOM 트리 생성**
+- **CSS → CSSOM 트리 생성**
+- 두 트리를 결합하여 **렌더링 트리(Render Tree)** 구성
+- 각 요소의 **위치, 크기 계산**
+- 브라우저가 노드를 화면에 출력
 
-MPA (Multi Page Application)
-각 요청마다 새 페이지 로드
+---
 
-서버 사이드 렌더링 (SSR)
+## ⚔️ SPA vs MPA
 
-SEO에 유리
+### 🧩 SPA (Single Page Application)
 
-초기 로딩 빠름
+- 한 개의 HTML 페이지에서 모든 콘텐츠 로드
+- 클라이언트 사이드 렌더링 (CSR)
+- 빠른 전환, 깜빡임 없음
+- React, Vue, Angular 등 사용
+- 예시: **Facebook, Gmail**
 
-### 예제
+### 📑 MPA (Multi Page Application)
 
-```html
-<p id="firstP" style="color:blue" onclick="this.style.color='teal'">
-  이것은 <span style="color:red">문장입니다.</span>
-</p>
+- 각 요청마다 새 페이지를 서버에서 받아옴
+- 서버 사이드 렌더링 (SSR)
+- SEO에 유리, 초기 로딩 빠름
+- 전통적인 웹사이트 구조
+- 예시: **일반 쇼핑몰, 뉴스사이트**
+
+---
+
+## 🧭 Web Client & Browser
+
+- **Client**: 서비스를 요청하는 측 (예: 웹 브라우저)
+- **Browser**: HTML/CSS/JS 문서를 요청, 해석, 렌더링하는 소프트웨어
+
+대표 브라우저:
+- Chrome
+- Edge
+- Firefox
+- Safari
+
+---
+
+## 🖥 Web Server
+
+### 🌐 IIS (Internet Information Services)
+
+- Windows 기본 내장 웹 서버
+- **기본 경로**: `C:\Inetpub\wwwroot`
+- 테스트:
+
+
+
 
