@@ -9,7 +9,7 @@
 
 ## CSS
 
-**CSS (Cascading Style Sheets)** 는 HTML 요소의 스타일을 지정하는 스타일시트 언어입니다.
+**CSS (Cascading Style Sheets)** 는 HTML 요소의 스타일을 지정하는 스타일시트 언어
 
 - 문서의 색상, 폰트, 배경, 레이아웃 등을 지정
 - **SASS**: CSS의 확장된 전처리기
@@ -23,7 +23,7 @@
 
 ## JavaScript & ECMAScript
 
-**JavaScript** 는 웹 페이지를 동작하게 하는 스크립트 언어입니다.
+**JavaScript** 는 웹 페이지를 동작하게 하는 스크립트 언어
 
 - **ECMAScript**는 JavaScript의 표준 사양
 - 웹 페이지의 동적 기능을 구현
@@ -31,12 +31,25 @@
 
 ---
 
-## DOM (Document Object Model)
+##SPA vs MPA
 
-HTML 문서를 트리 형태로 구조화하여 JS로 조작 가능하게 한 객체 모델입니다.
+**SPA (Single Page Application)
+한 개의 HTML 페이지에서 모든 콘텐츠 로드
 
-- 각 HTML 태그는 하나의 DOM 객체로 표현
-- `document.getElementById()`, `createElement()`, `appendChild()` 등으로 조작
+클라이언트 사이드 렌더링 (CSR)
+
+빠른 전환, 깜빡임 없음
+
+React, Vue 등 사용
+
+MPA (Multi Page Application)
+각 요청마다 새 페이지 로드
+
+서버 사이드 렌더링 (SSR)
+
+SEO에 유리
+
+초기 로딩 빠름
 
 ### 예제
 
