@@ -30,3 +30,17 @@ function Counter() {
     </div>
   );
 }
+
+## 2. useEffect
+컴포넌트의 생명주기와 관련된 작업(부수 효과)을 수행할 때 사용합니다. 예: API 호출, 타이머 설정, 이벤트 등록 등
+import { useEffect } from 'react';
+
+function Timer() {
+  useEffect(() => {
+    const timer = setInterval(() => {
+      console.log('tick');
+    }, 1000);
+
+    return () => clearInterval(timer); // cleanup
+  }, []); // 빈 배열이면 마운트 시 1회 실행
+}
