@@ -1,7 +1,6 @@
 # Web Programming
 ## 2025.03.13 학습내용
-**HTML (Hyper Text Markup Language)** 는 웹사이트의 구조를 정의하는 마크업 언어입니다.
-
+**HTML (Hyper Text Markup Language)** 는 웹사이트의 구조를 정의하는 마크업 언어
 - **Hyper Text**: 하이퍼링크로 다른 문서로 이동 가능한 텍스트
 - **Markup Language**: 태그로 데이터의 구조를 명시하는 언어
 - 문서의 외형 및 구조를 브라우저에 보여주는 방식 정의
