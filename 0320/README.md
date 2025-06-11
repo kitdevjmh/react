@@ -1,4 +1,4 @@
-# WebProgramming 2025.03.20 수업내용
+# 2025.03.20 수업내용
 
 ## React Element
 
