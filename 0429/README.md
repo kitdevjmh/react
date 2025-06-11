@@ -1,6 +1,5 @@
-
-# React 웹프로그래밍2 - 소플의 처음 만난 React
-
+# Web Programming
+## 2025.04.17 학습내용
 ---
 
 ## Event-Handler
