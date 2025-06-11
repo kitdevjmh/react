@@ -80,14 +80,82 @@
 - Safari
 
 ---
+## 🧑‍💻 Web Programming & React 개요
+---
 
-## 🖥 Web Server
+## 🚀 React란?
+> 사용자 인터페이스를 만들기 위한 JavaScript 라이브러리
 
-## 🌐React
+- Facebook이 2013년에 발표한 오픈소스 라이브러리
+- Virtual DOM과 JSX 문법 기반
+- 컴포넌트를 조합하여 UI 구성
+- SPA(Single Page Application) 구현에 최적화
 
-- 컴포넌트 기반 프론트엔드 라이브러리
-- JSX, 생명주기, 이벤트 처리, 상태 관리
-- SPA 개발에 적합
+### 주요 특징
+- 선언적 UI
+- 컴포넌트 기반 구조
+- 효율적 업데이트 (Virtual DOM)
+- JSX 문법 사용
+- 다양한 생태계와 도구 지원
+
+---
+
+## 🎯 React의 장점
+
+1. 이해하기 쉬운 개발 워크플로우
+2. 유연성과 높은 호환성
+3. 컴포넌트 재사용성
+4. 고성능 Virtual DOM
+5. Flux, Redux 상태관리
+6. 풍부한 개발 도구
+7. React Native를 통한 모바일 확장
+8. 방대한 커뮤니티
+9. JSX 구문으로 HTML 확장
+10. Hook 기반 구조
+
+---
+
+## 🧠 브라우저 렌더링 과정
+
+1. **파싱(Parsing)**: DOM Tree / CSSOM Tree 생성
+2. **스타일링**: Render Tree 구성
+3. **레이아웃(Layout)**: 노드 배치 및 크기 계산
+4. **페인팅(Paint)**: 실제 화면에 픽셀로 표시
+5. **합성(Compositing)**: 페인트된 요소들을 하나의 화면으로 합성
+
+### 🔄 Virtual DOM의 도입 이유
+- Real DOM은 성능에 비효율적
+- 변경사항을 가상 DOM에서 먼저 비교(diffing)
+- 실제 DOM에는 최소 변경만 반영 → 성능 향상
+
+---
+
+## 🛠️ React 개발 환경
+
+- Node.js (14.0.0 이상)
+- npm (5.6 이상)
+- VS Code + 확장 프로그램들:
+  - Prettier, Babel, GitLens, Stylelint, React Snippets 등
+
+### 패키지 매니저
+- `npm`, `npx`: 패키지 설치 및 실행
+- `nvm`: Node 버전 관리
+- `yarn`: 페이스북이 만든 빠른 패키지 매니저
+
+---
+
+## 📦 바벨(Babel) & 웹팩(WebPack)
+
+### Babel
+- 최신 JavaScript를 오래된 브라우저 호환 문법으로 변환
+- JSX 문법 변환
+- `babel-polyfill`을 통한 런타임 폴리필
+
+### WebPack
+- 여러 모듈들을 하나의 파일로 번들링
+- CSS, 이미지, JS 파일까지 모듈화
+
+---
 
 
 
