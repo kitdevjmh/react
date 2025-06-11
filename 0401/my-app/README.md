@@ -1,10 +1,6 @@
 # Web Programming
 ## 2025.04.01 학습내용
 # React Hooks 정리
-
-이 저장소는 **소플의 처음 만난 리액트** 및 **Web Programming II** 수업을 기반으로 한 **React Hooks** 정리입니다.  
-React에서 자주 사용되는 기본 Hook들을 간단한 예제와 함께 설명합니다.
-
 ---
 
 ## 📌 목차
@@ -16,6 +12,9 @@ React에서 자주 사용되는 기본 Hook들을 간단한 예제와 함께 설
 5. [useRef](#5-useref)
 
 ---
+## Hooks
+특정 위치에 원하는 함수가 실행되도록 갈고리를 걸어두는 것
+
 
 ## 1. useState
 
