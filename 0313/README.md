@@ -1,25 +1,5 @@
-# Web Programming with Software Engineering
-
-웹 프로그래밍에 대한 전반적인 이론과 실습 내용을 정리한 자료입니다. HTML, CSS, JavaScript, DOM, SPA/MPA, Web Server, React 등 웹 개발의 핵심 개념을 포함합니다.
-
-## 📚 목차
-
-1. [HTML](#html)
-2. [CSS](#css)
-3. [JavaScript & ECMAScript](#javascript--ecmascript)
-4. [DOM (Document Object Model)](#dom-document-object-model)
-5. [Rendering](#rendering)
-6. [SPA vs MPA](#spa-vs-mpa)
-7. [Web Client & Browser](#web-client--browser)
-8. [Web Server (IIS, Tomcat, Apache)](#web-server)
-9. [React](#react)
-10. [발표 주제](#발표-주제)
-11. [참고 자료](#참고-자료)
-
----
-
-## HTML
-
+# Web Programming
+## 2025.03.13 학습내용
 **HTML (Hyper Text Markup Language)** 는 웹사이트의 구조를 정의하는 마크업 언어입니다.
 
 - **Hyper Text**: 하이퍼링크로 다른 문서로 이동 가능한 텍스트
